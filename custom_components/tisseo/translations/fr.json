@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rechercher un arrêt Tisséo",
+        "description": "La recherche utilise le référentiel officiel Tisséo. Les accents sont facultatifs.",
+        "data": {"stop_name": "Nom de l'arrêt"}
+      },
+      "stop": {"title": "Choisir l'arrêt", "data": {"stop_area_id": "Arrêt"}},
+      "lines": {
+        "title": "Choisir les lignes",
+        "description": "Les passages en temps réel sont complétés par l'horaire théorique si nécessaire.",
+        "data": {
+          "route_ids": "Lignes suivies",
+          "max_departures": "Nombre de passages affichés",
+          "refresh_seconds": "Actualisation"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de télécharger les données officielles Tisséo.",
+      "stop_not_found": "Aucun arrêt ne correspond à cette recherche.",
+      "select_line": "Sélectionnez au moins une ligne."
+    },
+    "abort": {"already_configured": "Cet arrêt est déjà configuré."}
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Lignes suivies",
+        "data": {
+          "route_ids": "Lignes suivies",
+          "max_departures": "Nombre de passages affichés",
+          "refresh_seconds": "Actualisation"
+        }
+      }
+    },
+    "error": {"select_line": "Sélectionnez au moins une ligne."}
+  },
+  "entity": {"sensor": {"next_departures": {"name": "Prochains passages"}}}
+}
