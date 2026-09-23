@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {"title": "Search for a Tisséo stop", "data": {"stop_name": "Stop name"}},
+      "stop": {"title": "Select the stop", "data": {"stop_area_id": "Stop"}},
+      "lines": {
+        "title": "Select lines",
+        "data": {
+          "route_ids": "Lines to follow",
+          "max_departures": "Departures to display",
+          "refresh_seconds": "Refresh interval"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to download official Tisséo data.",
+      "stop_not_found": "No stop matches this search.",
+      "select_line": "Select at least one line."
+    },
+    "abort": {"already_configured": "This stop is already configured."}
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Followed lines",
+        "data": {
+          "route_ids": "Lines to follow",
+          "max_departures": "Departures to display",
+          "refresh_seconds": "Refresh interval"
+        }
+      }
+    },
+    "error": {"select_line": "Select at least one line."}
+  },
+  "entity": {"sensor": {"next_departures": {"name": "Next departures"}}}
+}
