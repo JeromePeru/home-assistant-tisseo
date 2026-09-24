@@ -19,7 +19,7 @@ cards:
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_t1
                 attribute: prochaine_destination
-                prefix: 'direction '
+                prefix: 'Direction '
                 style:
                   left: 19.5%
                   top: 25%
@@ -55,7 +55,7 @@ cards:
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_30
                 attribute: prochaine_destination
-                prefix: 'direction '
+                prefix: 'Direction '
                 style:
                   left: 19.5%
                   top: 25%
@@ -91,7 +91,7 @@ cards:
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_70
                 attribute: prochaine_destination
-                prefix: 'direction '
+                prefix: 'Direction '
                 style:
                   left: 19.5%
                   top: 25%
@@ -127,7 +127,7 @@ cards:
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_71
                 attribute: prochaine_destination
-                prefix: 'direction '
+                prefix: 'Direction '
                 style:
                   left: 19.5%
                   top: 25%
@@ -163,7 +163,7 @@ cards:
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_130
                 attribute: prochaine_destination
-                prefix: 'direction '
+                prefix: 'Direction '
                 style:
                   left: 19.5%
                   top: 25%
