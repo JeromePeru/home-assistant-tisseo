@@ -12,6 +12,7 @@ L’arrêt et les lignes sont choisis directement pendant la configuration. L’
 
 - recherche d’un arrêt par son nom, accents facultatifs ;
 - choix de plusieurs lignes à suivre ;
+- épinglage facultatif d'une ligne et d'une direction favorites ;
 - prochains passages avec destination, heure exacte et temps d’attente ;
 - distinction entre données en temps réel et horaires théoriques ;
 - un capteur global et un capteur par ligne ;

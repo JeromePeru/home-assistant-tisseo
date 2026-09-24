@@ -11,6 +11,8 @@ from homeassistant.config_entries import ConfigFlowResult
 from homeassistant.helpers import selector
 
 from .const import (
+    CONF_FAVORITE_DIRECTION,
+    CONF_FAVORITE_ROUTE_ID,
     CONF_MAX_DEPARTURES,
     CONF_REFRESH_SECONDS,
     CONF_ROUTE_IDS,
@@ -126,6 +128,8 @@ class TisseoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                     },
                     options={
                         CONF_ROUTE_IDS: selected,
+                        CONF_FAVORITE_ROUTE_ID: "",
+                        CONF_FAVORITE_DIRECTION: "",
                         CONF_MAX_DEPARTURES: user_input[CONF_MAX_DEPARTURES],
                         CONF_REFRESH_SECONDS: user_input[CONF_REFRESH_SECONDS],
                     },
@@ -137,6 +141,8 @@ class TisseoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 list(self._routes),
                 DEFAULT_MAX_DEPARTURES,
                 DEFAULT_REFRESH_SECONDS,
+                "",
+                "",
             ),
             errors=errors,
         )
@@ -173,6 +179,8 @@ class TisseoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             },
             options={
                 CONF_ROUTE_IDS: selected,
+                CONF_FAVORITE_ROUTE_ID: "",
+                CONF_FAVORITE_DIRECTION: "",
                 CONF_MAX_DEPARTURES: DEFAULT_MAX_DEPARTURES,
                 CONF_REFRESH_SECONDS: DEFAULT_REFRESH_SECONDS,
             },
@@ -213,6 +221,8 @@ class TisseoOptionsFlow(config_entries.OptionsFlow):
                 current.get(CONF_ROUTE_IDS, self._entry.data[CONF_ROUTE_IDS]),
                 current.get(CONF_MAX_DEPARTURES, DEFAULT_MAX_DEPARTURES),
                 current.get(CONF_REFRESH_SECONDS, DEFAULT_REFRESH_SECONDS),
+                current.get(CONF_FAVORITE_ROUTE_ID, ""),
+                current.get(CONF_FAVORITE_DIRECTION, ""),
             ),
             errors=errors,
         )
@@ -223,6 +233,8 @@ def _lines_schema(
     selected: list[str],
     max_departures: int,
     refresh_seconds: int,
+    favorite_route_id: str,
+    favorite_direction: str,
 ) -> vol.Schema:
     return vol.Schema(
         {
@@ -257,6 +269,21 @@ def _lines_schema(
                     unit_of_measurement="s",
                 )
             ),
+            vol.Optional(
+                CONF_FAVORITE_ROUTE_ID, default=favorite_route_id
+            ): selector.SelectSelector(
+                selector.SelectSelectorConfig(
+                    options=[selector.SelectOptionDict(value="", label="Aucune")]
+                    + [
+                        selector.SelectOptionDict(value=key, label=value.label)
+                        for key, value in routes.items()
+                    ],
+                    mode=selector.SelectSelectorMode.DROPDOWN,
+                )
+            ),
+            vol.Optional(
+                CONF_FAVORITE_DIRECTION, default=favorite_direction
+            ): selector.TextSelector(),
         }
     )
 

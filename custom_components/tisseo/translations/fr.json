@@ -13,7 +13,9 @@
         "data": {
           "route_ids": "Lignes suivies",
           "max_departures": "Nombre de passages affichés",
-          "refresh_seconds": "Actualisation"
+          "refresh_seconds": "Actualisation",
+          "favorite_route_id": "Ligne favorite",
+          "favorite_direction": "Direction favorite"
         }
       }
     },
@@ -28,10 +30,13 @@
     "step": {
       "init": {
         "title": "Lignes suivies",
+        "description": "Choisissez une ligne favorite et indiquez sa direction exacte pour l'épingler.",
         "data": {
           "route_ids": "Lignes suivies",
           "max_departures": "Nombre de passages affichés",
-          "refresh_seconds": "Actualisation"
+          "refresh_seconds": "Actualisation",
+          "favorite_route_id": "Ligne favorite",
+          "favorite_direction": "Direction favorite"
         }
       }
     },

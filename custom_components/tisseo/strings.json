@@ -17,7 +17,9 @@
         "data": {
           "route_ids": "Lignes suivies",
           "max_departures": "Nombre de passages affichés",
-          "refresh_seconds": "Actualisation"
+          "refresh_seconds": "Actualisation",
+          "favorite_route_id": "Ligne favorite",
+          "favorite_direction": "Direction favorite"
         }
       }
     },
@@ -32,11 +34,13 @@
     "step": {
       "init": {
         "title": "Lignes suivies",
-        "description": "Modifiez les lignes et la fréquence d'actualisation.",
+        "description": "Modifiez les lignes, la fréquence d'actualisation et, si souhaité, une ligne favorite avec sa direction exacte.",
         "data": {
           "route_ids": "Lignes suivies",
           "max_departures": "Nombre de passages affichés",
-          "refresh_seconds": "Actualisation"
+          "refresh_seconds": "Actualisation",
+          "favorite_route_id": "Ligne favorite",
+          "favorite_direction": "Direction favorite"
         }
       }
     },

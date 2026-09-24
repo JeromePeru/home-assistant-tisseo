@@ -9,6 +9,8 @@ CONF_STOP_AREA_ID = "stop_area_id"
 CONF_STOP_NAME = "stop_name"
 CONF_ROUTE_IDS = "route_ids"
 CONF_ROUTE_OPTIONS = "route_options"
+CONF_FAVORITE_ROUTE_ID = "favorite_route_id"
+CONF_FAVORITE_DIRECTION = "favorite_direction"
 CONF_MAX_DEPARTURES = "max_departures"
 CONF_REFRESH_SECONDS = "refresh_seconds"
 

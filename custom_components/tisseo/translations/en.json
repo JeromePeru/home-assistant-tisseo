@@ -8,7 +8,9 @@
         "data": {
           "route_ids": "Lines to follow",
           "max_departures": "Departures to display",
-          "refresh_seconds": "Refresh interval"
+          "refresh_seconds": "Refresh interval",
+          "favorite_route_id": "Favorite line",
+          "favorite_direction": "Favorite direction"
         }
       }
     },
@@ -23,10 +25,13 @@
     "step": {
       "init": {
         "title": "Followed lines",
+        "description": "Choose a favorite line and enter its exact direction to pin it.",
         "data": {
           "route_ids": "Lines to follow",
           "max_departures": "Departures to display",
-          "refresh_seconds": "Refresh interval"
+          "refresh_seconds": "Refresh interval",
+          "favorite_route_id": "Favorite line",
+          "favorite_direction": "Favorite direction"
         }
       }
     },
