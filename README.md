@@ -97,6 +97,17 @@ content: >-
   {% endif %}
 ```
 
+### Dashboard graphique
+
+Un exemple complet inspiré des panneaux d’information voyageurs est fourni dans [`examples/dashboard_tisseo.yaml`](examples/dashboard_tisseo.yaml). Il affiche :
+
+- des tuiles bleues avec le numéro de ligne, la direction et le prochain passage ;
+- trois lignes par rangée sur grand écran ;
+- un tableau récapitulatif trié par temps d’attente ;
+- les données en temps réel et les horaires prévus.
+
+Copiez la vue dans l’éditeur de configuration brute d’un dashboard Home Assistant, puis adaptez les identifiants `sensor.tisseo_aeroconstellation_*` à vos entités.
+
 ## Fonctionnement
 
 - Le référentiel GTFS statique fournit les arrêts, lignes, destinations et horaires.
