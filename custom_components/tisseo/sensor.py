@@ -94,7 +94,7 @@ class TisseoRouteSensor(TisseoEntity, SensorEntity):
         passages = [item.as_dict(now) for item in self._items]
         passages_suivants = " · ".join(
             "maintenant" if item["dans_minutes"] == 0 else f'{item["dans_minutes"]} min'
-            for item in passages[1:4]
+            for item in passages[1:3]
         )
         return {
             "passages": passages,
