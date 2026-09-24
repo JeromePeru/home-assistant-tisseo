@@ -14,132 +14,128 @@ cards:
         square: false
         cards:
           - type: picture-elements
-            image: &tisseo_background >-
-              data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20rx%3D%2228%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M28%200h584q28%200%2028%2028v132H0V28Q0%200%2028%200%22%20fill%3D%22%230766c7%22%2F%3E%3Ccircle%20cx%3D%2285%22%20cy%3D%2280%22%20r%3D%2250%22%20fill%3D%22%23fff%22%2F%3E%3Ctext%20x%3D%22160%22%20y%3D%2274%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EA%C3%A9roconstellation%3C%2Ftext%3E%3Cline%20x1%3D%2240%22%20y1%3D%22276%22%20x2%3D%22600%22%20y2%3D%22276%22%20stroke%3D%22%23e4e8ee%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%22312%22%20r%3D%229%22%20fill%3D%22%232ac273%22%2F%3E%3Ctext%20x%3D%2276%22%20y%3D%22320%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%236b7280%22%3Eprochain%20passage%3C%2Ftext%3E%3C%2Fsvg%3E
+            image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20280%22%3E%3Crect%20width%3D%22640%22%20height%3D%22280%22%20fill%3D%22%23fff%22%2F%3E%3Crect%20width%3D%22640%22%20height%3D%22125%22%20fill%3D%22%230766c7%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2262%22%20r%3D%2238%22%20fill%3D%22%23fff%22%2F%3E%3Ctext%20x%3D%2270%22%20y%3D%2274%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3ET1%3C%2Ftext%3E%3Ctext%20x%3D%22125%22%20y%3D%2258%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2223%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EA%C3%A9roconstellation%3C%2Ftext%3E%3Cg%20transform%3D%22translate(550%2012)%20scale(.82)%22%20stroke%3D%22%23fff%22%20stroke-width%3D%227%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%208h56M28%208%2018%2022M52%208l10%2014%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%2222%22%20width%3D%2264%22%20height%3D%2272%22%20rx%3D%2212%22%2F%3E%3Cpath%20d%3D%22M8%2064h64%22%2F%3E%3Ccircle%20cx%3D%2227%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Ccircle%20cx%3D%2253%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Cpath%20d%3D%22M24%2094%2014%20106M56%2094l10%2012%22%2F%3E%3C%2Fg%3E%3Cline%20x1%3D%2234%22%20y1%3D%22211%22%20x2%3D%22606%22%20y2%3D%22211%22%20stroke%3D%22%23e4e8ee%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%22246%22%20r%3D%228%22%20fill%3D%22%232ac273%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%22252%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%236b7280%22%3Eprochain%20passage%3C%2Ftext%3E%3C%2Fsvg%3E"
             elements:
-              - type: image
-                image: >-
-                  data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3ET1%3C%2Ftext%3E%3C%2Fsvg%3E
-                style: &route_style
-                  left: 13.3%
-                  top: 22%
-                  width: 14%
-                  color: '#075fc7'
-                  font-size: 17px
-                  font-weight: 800
-                  text-align: center
-              - type: icon
-                icon: mdi:tram
-                style: &vehicle_style
-                  left: 90%
-                  top: 20%
-                  color: white
-                  --mdc-icon-size: 48px
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_t1
                 attribute: prochaine_destination
                 prefix: 'direction '
-                style: &direction_style
-                  left: 25%
-                  top: 27%
+                style:
+                  left: 19.5%
+                  top: 25%
                   transform: none
                   color: white
-                  font-size: 19px
+                  font-size: 16px
                   font-weight: 500
-                  max-width: 68%
-                  overflow: hidden
-                  text-overflow: ellipsis
-                  white-space: nowrap
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_t1
-                style: &time_style
-                  left: 8%
-                  top: 53%
+                style:
+                  left: 7%
+                  top: 42%
                   transform: none
                   color: '#172033'
-                  font-size: 54px
+                  font-size: 42px
                   font-weight: 800
-                  letter-spacing: -2px
             tap_action:
               action: more-info
           - type: picture-elements
-            image: *tisseo_background
+            image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20280%22%3E%3Crect%20width%3D%22640%22%20height%3D%22280%22%20fill%3D%22%23fff%22%2F%3E%3Crect%20width%3D%22640%22%20height%3D%22125%22%20fill%3D%22%230766c7%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2262%22%20r%3D%2238%22%20fill%3D%22%23fff%22%2F%3E%3Ctext%20x%3D%2270%22%20y%3D%2274%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E30%3C%2Ftext%3E%3Ctext%20x%3D%22125%22%20y%3D%2258%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2223%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EA%C3%A9roconstellation%3C%2Ftext%3E%3Cg%20transform%3D%22translate(550%2012)%20scale(.82)%22%20stroke%3D%22%23fff%22%20stroke-width%3D%227%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%228%22%20y%3D%2210%22%20width%3D%2264%22%20height%3D%2286%22%20rx%3D%2212%22%2F%3E%3Cpath%20d%3D%22M8%2058h64%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Cpath%20d%3D%22M22%2096v10M58%2096v10%22%2F%3E%3C%2Fg%3E%3Cline%20x1%3D%2234%22%20y1%3D%22211%22%20x2%3D%22606%22%20y2%3D%22211%22%20stroke%3D%22%23e4e8ee%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%22246%22%20r%3D%228%22%20fill%3D%22%232ac273%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%22252%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%236b7280%22%3Eprochain%20passage%3C%2Ftext%3E%3C%2Fsvg%3E"
             elements:
-              - type: image
-                image: >-
-                  data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E30%3C%2Ftext%3E%3C%2Fsvg%3E
-                style: *route_style
-              - type: icon
-                icon: mdi:bus
-                style: *vehicle_style
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_30
                 attribute: prochaine_destination
                 prefix: 'direction '
-                style: *direction_style
+                style:
+                  left: 19.5%
+                  top: 25%
+                  transform: none
+                  color: white
+                  font-size: 16px
+                  font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_30
-                style: *time_style
+                style:
+                  left: 7%
+                  top: 42%
+                  transform: none
+                  color: '#172033'
+                  font-size: 42px
+                  font-weight: 800
             tap_action:
               action: more-info
           - type: picture-elements
-            image: *tisseo_background
+            image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20280%22%3E%3Crect%20width%3D%22640%22%20height%3D%22280%22%20fill%3D%22%23fff%22%2F%3E%3Crect%20width%3D%22640%22%20height%3D%22125%22%20fill%3D%22%230766c7%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2262%22%20r%3D%2238%22%20fill%3D%22%23fff%22%2F%3E%3Ctext%20x%3D%2270%22%20y%3D%2274%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E70%3C%2Ftext%3E%3Ctext%20x%3D%22125%22%20y%3D%2258%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2223%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EA%C3%A9roconstellation%3C%2Ftext%3E%3Cg%20transform%3D%22translate(550%2012)%20scale(.82)%22%20stroke%3D%22%23fff%22%20stroke-width%3D%227%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%228%22%20y%3D%2210%22%20width%3D%2264%22%20height%3D%2286%22%20rx%3D%2212%22%2F%3E%3Cpath%20d%3D%22M8%2058h64%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Cpath%20d%3D%22M22%2096v10M58%2096v10%22%2F%3E%3C%2Fg%3E%3Cline%20x1%3D%2234%22%20y1%3D%22211%22%20x2%3D%22606%22%20y2%3D%22211%22%20stroke%3D%22%23e4e8ee%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%22246%22%20r%3D%228%22%20fill%3D%22%232ac273%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%22252%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%236b7280%22%3Eprochain%20passage%3C%2Ftext%3E%3C%2Fsvg%3E"
             elements:
-              - type: image
-                image: >-
-                  data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E70%3C%2Ftext%3E%3C%2Fsvg%3E
-                style: *route_style
-              - type: icon
-                icon: mdi:bus
-                style: *vehicle_style
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_70
                 attribute: prochaine_destination
                 prefix: 'direction '
-                style: *direction_style
+                style:
+                  left: 19.5%
+                  top: 25%
+                  transform: none
+                  color: white
+                  font-size: 16px
+                  font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_70
-                style: *time_style
+                style:
+                  left: 7%
+                  top: 42%
+                  transform: none
+                  color: '#172033'
+                  font-size: 42px
+                  font-weight: 800
             tap_action:
               action: more-info
           - type: picture-elements
-            image: *tisseo_background
+            image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20280%22%3E%3Crect%20width%3D%22640%22%20height%3D%22280%22%20fill%3D%22%23fff%22%2F%3E%3Crect%20width%3D%22640%22%20height%3D%22125%22%20fill%3D%22%230766c7%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2262%22%20r%3D%2238%22%20fill%3D%22%23fff%22%2F%3E%3Ctext%20x%3D%2270%22%20y%3D%2274%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E71%3C%2Ftext%3E%3Ctext%20x%3D%22125%22%20y%3D%2258%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2223%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EA%C3%A9roconstellation%3C%2Ftext%3E%3Cg%20transform%3D%22translate(550%2012)%20scale(.82)%22%20stroke%3D%22%23fff%22%20stroke-width%3D%227%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%228%22%20y%3D%2210%22%20width%3D%2264%22%20height%3D%2286%22%20rx%3D%2212%22%2F%3E%3Cpath%20d%3D%22M8%2058h64%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Cpath%20d%3D%22M22%2096v10M58%2096v10%22%2F%3E%3C%2Fg%3E%3Cline%20x1%3D%2234%22%20y1%3D%22211%22%20x2%3D%22606%22%20y2%3D%22211%22%20stroke%3D%22%23e4e8ee%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%22246%22%20r%3D%228%22%20fill%3D%22%232ac273%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%22252%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%236b7280%22%3Eprochain%20passage%3C%2Ftext%3E%3C%2Fsvg%3E"
             elements:
-              - type: image
-                image: >-
-                  data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E71%3C%2Ftext%3E%3C%2Fsvg%3E
-                style: *route_style
-              - type: icon
-                icon: mdi:bus
-                style: *vehicle_style
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_71
                 attribute: prochaine_destination
                 prefix: 'direction '
-                style: *direction_style
+                style:
+                  left: 19.5%
+                  top: 25%
+                  transform: none
+                  color: white
+                  font-size: 16px
+                  font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_71
-                style: *time_style
+                style:
+                  left: 7%
+                  top: 42%
+                  transform: none
+                  color: '#172033'
+                  font-size: 42px
+                  font-weight: 800
             tap_action:
               action: more-info
           - type: picture-elements
-            image: *tisseo_background
+            image: "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20280%22%3E%3Crect%20width%3D%22640%22%20height%3D%22280%22%20fill%3D%22%23fff%22%2F%3E%3Crect%20width%3D%22640%22%20height%3D%22125%22%20fill%3D%22%230766c7%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2262%22%20r%3D%2238%22%20fill%3D%22%23fff%22%2F%3E%3Ctext%20x%3D%2270%22%20y%3D%2274%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E130%3C%2Ftext%3E%3Ctext%20x%3D%22125%22%20y%3D%2258%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2223%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EA%C3%A9roconstellation%3C%2Ftext%3E%3Cg%20transform%3D%22translate(550%2012)%20scale(.82)%22%20stroke%3D%22%23fff%22%20stroke-width%3D%227%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%228%22%20y%3D%2210%22%20width%3D%2264%22%20height%3D%2286%22%20rx%3D%2212%22%2F%3E%3Cpath%20d%3D%22M8%2058h64%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2280%22%20r%3D%225%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22%2F%3E%3Cpath%20d%3D%22M22%2096v10M58%2096v10%22%2F%3E%3C%2Fg%3E%3Cline%20x1%3D%2234%22%20y1%3D%22211%22%20x2%3D%22606%22%20y2%3D%22211%22%20stroke%3D%22%23e4e8ee%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%22246%22%20r%3D%228%22%20fill%3D%22%232ac273%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%22252%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%236b7280%22%3Eprochain%20passage%3C%2Ftext%3E%3C%2Fsvg%3E"
             elements:
-              - type: image
-                image: >-
-                  data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22800%22%20fill%3D%22%23075fc7%22%3E130%3C%2Ftext%3E%3C%2Fsvg%3E
-                style: *route_style
-              - type: icon
-                icon: mdi:bus
-                style: *vehicle_style
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_130
                 attribute: prochaine_destination
                 prefix: 'direction '
-                style: *direction_style
+                style:
+                  left: 19.5%
+                  top: 25%
+                  transform: none
+                  color: white
+                  font-size: 16px
+                  font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_130
-                style: *time_style
+                style:
+                  left: 7%
+                  top: 42%
+                  transform: none
+                  color: '#172033'
+                  font-size: 42px
+                  font-weight: 800
             tap_action:
               action: more-info
       - type: markdown
