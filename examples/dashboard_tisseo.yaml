@@ -10,7 +10,7 @@ cards:
           # 🚌 Aéroconstellation
           Prochains passages des lignes suivies
       - type: grid
-        columns: 4
+        columns: 5
         square: false
         cards:
           - type: picture-elements
@@ -25,16 +25,16 @@ cards:
                   top: 25%
                   transform: none
                   color: white
-                  font-size: 16px
+                  font-size: 13px
                   font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_t1
                 style:
                   left: 7%
-                  top: 40%
+                  top: 38%
                   transform: none
                   color: '#172033'
-                  font-size: 34px
+                  font-size: 28px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -50,16 +50,16 @@ cards:
                   top: 25%
                   transform: none
                   color: white
-                  font-size: 16px
+                  font-size: 13px
                   font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_30
                 style:
                   left: 7%
-                  top: 40%
+                  top: 38%
                   transform: none
                   color: '#172033'
-                  font-size: 34px
+                  font-size: 28px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -75,16 +75,16 @@ cards:
                   top: 25%
                   transform: none
                   color: white
-                  font-size: 16px
+                  font-size: 13px
                   font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_70
                 style:
                   left: 7%
-                  top: 40%
+                  top: 38%
                   transform: none
                   color: '#172033'
-                  font-size: 34px
+                  font-size: 28px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -100,16 +100,16 @@ cards:
                   top: 25%
                   transform: none
                   color: white
-                  font-size: 16px
+                  font-size: 13px
                   font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_71
                 style:
                   left: 7%
-                  top: 40%
+                  top: 38%
                   transform: none
                   color: '#172033'
-                  font-size: 34px
+                  font-size: 28px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -125,16 +125,16 @@ cards:
                   top: 25%
                   transform: none
                   color: white
-                  font-size: 16px
+                  font-size: 13px
                   font-weight: 500
               - type: state-label
                 entity: sensor.tisseo_aeroconstellation_130
                 style:
                   left: 7%
-                  top: 40%
+                  top: 38%
                   transform: none
                   color: '#172033'
-                  font-size: 34px
+                  font-size: 28px
                   font-weight: 800
             tap_action:
               action: more-info
