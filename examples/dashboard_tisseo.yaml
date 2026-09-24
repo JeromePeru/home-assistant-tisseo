@@ -10,7 +10,7 @@ cards:
           # 🚌 Aéroconstellation
           Prochains passages des lignes suivies
       - type: grid
-        columns: 3
+        columns: 4
         square: false
         cards:
           - type: picture-elements
@@ -31,10 +31,10 @@ cards:
                 entity: sensor.tisseo_aeroconstellation_t1
                 style:
                   left: 7%
-                  top: 42%
+                  top: 40%
                   transform: none
                   color: '#172033'
-                  font-size: 42px
+                  font-size: 34px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -56,10 +56,10 @@ cards:
                 entity: sensor.tisseo_aeroconstellation_30
                 style:
                   left: 7%
-                  top: 42%
+                  top: 40%
                   transform: none
                   color: '#172033'
-                  font-size: 42px
+                  font-size: 34px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -81,10 +81,10 @@ cards:
                 entity: sensor.tisseo_aeroconstellation_70
                 style:
                   left: 7%
-                  top: 42%
+                  top: 40%
                   transform: none
                   color: '#172033'
-                  font-size: 42px
+                  font-size: 34px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -106,10 +106,10 @@ cards:
                 entity: sensor.tisseo_aeroconstellation_71
                 style:
                   left: 7%
-                  top: 42%
+                  top: 40%
                   transform: none
                   color: '#172033'
-                  font-size: 42px
+                  font-size: 34px
                   font-weight: 800
             tap_action:
               action: more-info
@@ -131,10 +131,10 @@ cards:
                 entity: sensor.tisseo_aeroconstellation_130
                 style:
                   left: 7%
-                  top: 42%
+                  top: 40%
                   transform: none
                   color: '#172033'
-                  font-size: 42px
+                  font-size: 34px
                   font-weight: 800
             tap_action:
               action: more-info
