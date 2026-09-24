@@ -91,8 +91,14 @@ class TisseoRouteSensor(TisseoEntity, SensorEntity):
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
         now = self.coordinator.data.updated_at
+        passages = [item.as_dict(now) for item in self._items]
+        passages_suivants = " · ".join(
+            "maintenant" if item["dans_minutes"] == 0 else f'{item["dans_minutes"]} min'
+            for item in passages[1:4]
+        )
         return {
-            "passages": [item.as_dict(now) for item in self._items],
+            "passages": passages,
+            "passages_suivants": passages_suivants or None,
             "prochaine_destination": self._items[0].destination if self._items else None,
             "temps_reel": self._items[0].realtime if self._items else None,
         }

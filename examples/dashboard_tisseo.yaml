@@ -36,6 +36,17 @@ cards:
                   color: '#172033'
                   font-size: 28px
                   font-weight: 800
+              - type: state-label
+                entity: sensor.tisseo_aeroconstellation_t1
+                attribute: passages_suivants
+                prefix: 'puis '
+                style:
+                  left: 34%
+                  top: 41%
+                  transform: none
+                  color: '#6b7280'
+                  font-size: 10px
+                  font-weight: 500
             tap_action:
               action: more-info
           - type: picture-elements
@@ -61,6 +72,17 @@ cards:
                   color: '#172033'
                   font-size: 28px
                   font-weight: 800
+              - type: state-label
+                entity: sensor.tisseo_aeroconstellation_30
+                attribute: passages_suivants
+                prefix: 'puis '
+                style:
+                  left: 34%
+                  top: 41%
+                  transform: none
+                  color: '#6b7280'
+                  font-size: 10px
+                  font-weight: 500
             tap_action:
               action: more-info
           - type: picture-elements
@@ -86,6 +108,17 @@ cards:
                   color: '#172033'
                   font-size: 28px
                   font-weight: 800
+              - type: state-label
+                entity: sensor.tisseo_aeroconstellation_70
+                attribute: passages_suivants
+                prefix: 'puis '
+                style:
+                  left: 34%
+                  top: 41%
+                  transform: none
+                  color: '#6b7280'
+                  font-size: 10px
+                  font-weight: 500
             tap_action:
               action: more-info
           - type: picture-elements
@@ -111,6 +144,17 @@ cards:
                   color: '#172033'
                   font-size: 28px
                   font-weight: 800
+              - type: state-label
+                entity: sensor.tisseo_aeroconstellation_71
+                attribute: passages_suivants
+                prefix: 'puis '
+                style:
+                  left: 34%
+                  top: 41%
+                  transform: none
+                  color: '#6b7280'
+                  font-size: 10px
+                  font-weight: 500
             tap_action:
               action: more-info
           - type: picture-elements
@@ -136,6 +180,17 @@ cards:
                   color: '#172033'
                   font-size: 28px
                   font-weight: 800
+              - type: state-label
+                entity: sensor.tisseo_aeroconstellation_130
+                attribute: passages_suivants
+                prefix: 'puis '
+                style:
+                  left: 34%
+                  top: 41%
+                  transform: none
+                  color: '#6b7280'
+                  font-size: 10px
+                  font-weight: 500
             tap_action:
               action: more-info
       - type: markdown
